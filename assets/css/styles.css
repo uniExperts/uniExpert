@@ -1,0 +1,52 @@
+body {
+  background-color: var(--bs-emphasis-color);
+}
+
+.cursor {
+  animation: blink 1.5s infinite;
+  /*font-family: monospace;*/
+  /*font-weight: bold;*/
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  #bottom_logo_col {
+    flex: 0 0 auto;
+    width: 100%;
+    width: 4;
+  }
+}
+
+@media (max-width: 576px) {
+  #bottom_logo_col {
+    flex: 0 0 auto;
+    width: 100%;
+    width: 4;
+  }
+}
+
+@media (max-width: 576px) {
+  #bottom_logo_col {
+    flex: 0 0 auto;
+    width: 100%;
+    width: 4;
+  }
+}
+
+@media (min-width: 576px) {
+  #bottom_logo_col {
+    width: 3rem;
+  }
+}
+
